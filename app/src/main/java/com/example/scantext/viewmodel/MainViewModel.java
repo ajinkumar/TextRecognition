@@ -134,7 +134,7 @@ public class MainViewModel extends Observable {
 
         Request request = new Request.Builder()
                 .url("https://wordsapiv1.p.rapidapi.com/words/" + word)
-                .addHeader("X-Mashape-Key", "0ee03de144mshb6bdd7f9bc55783p17d677jsn1e96ca70e528")
+                .addHeader("X-Mashape-Key", "xxxxxxxxxxxxxx")
                 .build();
 
         client.newCall(request).enqueue(new Callback() {
